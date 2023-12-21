@@ -27,3 +27,6 @@ Writes `flash_main.bin`
 
 # Dude, Where's my ~Car?~ Calibration Menu?
 There is no calibration menu in the original firmware.
+
+# Schematic
+[HeHa has already done that here](https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/Ladeger%C3%A4te/b6-cms.zip/Hauptplatine.wmf?as=SVG)
