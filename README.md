@@ -17,8 +17,8 @@ The main flash contents and dataflash will be in their files respectively.
 Check those files before continuing.
 
 # Erasing the Flash
-ACHTUNG, be sure as heck that you have a working dump.
-`.\openocd.exe -f OpenOCD-20231002-0.12.0\share\openocd\scripts\interface\stlink-dap.cfg -f openocd\dump_flash.cfg`  
+ACHTUNG, be sure as heck that you have a working dump.  
+`.\openocd.exe -f OpenOCD-20231002-0.12.0\share\openocd\scripts\interface\stlink-dap.cfg -f openocd\erase_flash.cfg`  
 
 # Writing the Flash
 Make sure you erased the flash, as to why: find it out and learn something :)  
@@ -26,4 +26,4 @@ Writes `flash_main.bin`
 `.\openocd.exe -f OpenOCD-20231002-0.12.0\share\openocd\scripts\interface\stlink-dap.cfg -f openocd\write_flash.cfg`  
 
 # Dude, Where's my ~Car?~ Calibration Menu?
-There is no calibration menu in this software.
+There is no calibration menu in the original firmware.
